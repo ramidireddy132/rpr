@@ -1,5 +1,6 @@
 {
   "name" : "rpr_mt_week",
+  "description" : "ok will see",
   "runtimeEnvironmentId" : "@7jjRCvGqvLJb715hlLIZ0T",
   "runtimeEnvironmentName" : "USW3_Agent_Win",
   "maxLogs" : 10,
@@ -143,5 +144,5 @@
   "optimizationPlan" : "NONE",
   "allowMaxFieldLength" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-07-04 07:51:41 PDT"
+  "vcsExportTime" : "2025-07-04 07:53:52 PDT"
 }
