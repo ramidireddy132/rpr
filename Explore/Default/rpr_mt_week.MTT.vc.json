@@ -1,0 +1,147 @@
+{
+  "name" : "rpr_mt_week",
+  "runtimeEnvironmentId" : "@7jjRCvGqvLJb715hlLIZ0T",
+  "runtimeEnvironmentName" : "USW3_Agent_Win",
+  "maxLogs" : 10,
+  "parameters" : [
+    {
+      "name" : "$Source$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "Source",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "flags" : "SUPPORTS_MULTI_SCHEMA",
+        "originalPath" : "Source"
+      },
+      "sourceConnectionId" : "@1kqFOKoO4O1br6tJ47wRYg",
+      "connectionName" : "Oracle_Win",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "C04486944/EMP_SRC_DATA",
+          "label" : "EMP_SRC_DATA",
+          "metadataUpdated" : false,
+          "dbSchema" : "C04486944"
+        },
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "C04486944/EMP_SRC_DATA",
+            "label" : "EMP_SRC_DATA",
+            "metadataUpdated" : false,
+            "dbSchema" : "C04486944"
+          }
+        ]
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "unspecified" : false,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "fileList" : false
+    },
+    {
+      "name" : "$Target$",
+      "type" : "TARGET",
+      "label" : "Target",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "supportApplyDDLChanges" : "true",
+        "originalPath" : "Target"
+      },
+      "targetConnectionId" : "@1WvrBqM3uwsgt31MIwZI8O",
+      "connectionName" : "Flatfile_Win",
+      "targetObject" : "rpr_week_number.csv",
+      "targetObjectLabel" : "rpr_week_number.csv",
+      "newFlatFile" : false,
+      "newObject" : true,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "newObjectName" : "rpr_week_number.csv",
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "tgtFFAttrs" : {
+        "delimiter" : ",",
+        "textQualifier" : "\"",
+        "headerLineNo" : 1,
+        "rowDelimiter" : 0,
+        "consecutiveDelimiter" : false,
+        "multiDelimitersAsAnd" : true
+      },
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "rpr_week_number.csv",
+      "objectLabel" : "rpr_week_number.csv",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "unspecified" : false,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "fileList" : false
+    }
+  ],
+  "verbose" : false,
+  "mappingId" : "@8lEzbTXLel2c633wBgQxEK",
+  "mappingTemplateName" : "rpr_week_number",
+  "inOutParameters" : [
+    {
+      "name" : "mail",
+      "datatype" : "STRING",
+      "precision" : "10",
+      "scale" : "0",
+      "retentionPolicy" : "ON_SUCCESS_OR_WARNING",
+      "aggregationType" : "MAX"
+    }
+  ],
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : false,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "schemaMode" : "async",
+  "valid" : true,
+  "optimizationPlan" : "NONE",
+  "allowMaxFieldLength" : false,
+  "midstreamPreview" : false,
+  "vcsExportTime" : "2025-07-04 07:51:41 PDT"
+}
