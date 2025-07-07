@@ -20,7 +20,7 @@
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2025-07-04T14:51:41.790Z",
+  "updateTime" : "2025-07-07T07:04:17.339Z",
   "objectRefs" : [ {
     "id" : "3QI5Jt0FDDllbX6sI51gMK",
     "name" : "rpr_mt_week",
@@ -33,12 +33,9 @@
       "repoInfo" : {
         "repoHandle" : "01DBA50Z000000000002"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : null,
+        "description" : "ok will see",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
