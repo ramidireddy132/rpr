@@ -1,22 +1,22 @@
 {
   "objectInfo" : {
-    "id" : "3QI5Jt0FDDllbX6sI51gMK",
-    "name" : "rpr_mt_week",
-    "type" : "MTT",
+    "id" : "8lEzbTXLel2c633wBgQxEK",
+    "name" : "rpr_week_number",
+    "type" : "DTEMPLATE",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01DBA50Z000000000002"
+        "repoHandle" : "01DBA517000000000002"
       },
       "contextAttributes" : [ {
         "name" : "id",
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "ok will see",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
@@ -25,26 +25,6 @@
   "dataFileExtension" : "zip",
   "updateTime" : "2025-08-19T05:48:42.985Z",
   "objectRefs" : [ {
-    "id" : "7jjRCvGqvLJb715hlLIZ0T",
-    "name" : "USW3_Agent_Win",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01DBA525000000000002"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
     "id" : "1kqFOKoO4O1br6tJ47wRYg",
     "name" : "Oracle_Win",
     "type" : "Connection",
@@ -84,29 +64,6 @@
       }
     },
     "path" : "/SYS"
-  }, {
-    "id" : "8lEzbTXLel2c633wBgQxEK",
-    "name" : "rpr_week_number",
-    "type" : "DTEMPLATE",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "01DBA517000000000002"
-      },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Default"
   } ],
   "readableFileExtension" : "json",
   "readableFilePresent" : true
