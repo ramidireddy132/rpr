@@ -13,14 +13,14 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "showing version control",
+        "description" : "",
         "contentType" : "application/json; charset=utf-8",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "xml",
-  "updateTime" : "2025-09-02T08:57:00.160Z",
+  "updateTime" : "2025-09-02T09:00:11.135Z",
   "objectRefs" : [ {
     "id" : "3QI5Jt0FDDllbX6sI51gMK",
     "name" : "rpr_mt_week",
@@ -38,7 +38,7 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "showing version control",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
