@@ -1,5 +1,6 @@
 {
   "name" : "rpr_mt_week",
+  "description" : "showing version control",
   "runtimeEnvironmentId" : "@7jjRCvGqvLJb715hlLIZ0T",
   "runtimeEnvironmentName" : "USW3_Agent_Win",
   "maxLogs" : 10,
@@ -54,7 +55,6 @@
       "retainFieldMetadata" : false,
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -110,7 +110,6 @@
       "objectLabel" : "rpr_week_number.csv",
       "useExactSrcNames" : false,
       "userUpdated" : true,
-      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -144,5 +143,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2025-08-18 22:48:42 PDT"
+  "vcsExportTime" : "2025-09-02 01:56:59 PDT"
 }
