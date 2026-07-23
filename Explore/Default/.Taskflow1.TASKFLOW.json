@@ -1,0 +1,47 @@
+{
+  "objectInfo" : {
+    "id" : "hNHrLtHiTCWclokdHU4WwH",
+    "name" : "Taskflow1",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "xxxxxxxxxxxxxxx-gt-24206962-2026-07-23T02:21:39.379Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2026-07-23T02:55:24.271Z",
+  "objectRefs" : [ {
+    "id" : "3QI5Jt0FDDllbX6sI51gMK",
+    "name" : "rpr_mt_week",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DBA50Z000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "showing version control",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
