@@ -1,0 +1,47 @@
+{
+  "objectInfo" : {
+    "id" : "6RiOD2ykOjcdBWWNNiLa83",
+    "name" : "rpr_tf_week_number",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "iZHvKWTzIf6riX2-gt-21849270-2026-08-27T10:22:14.135Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "showing version control",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2026-08-27T10:29:34.559Z",
+  "objectRefs" : [ {
+    "id" : "75OQVtUemRRkehoTwXWFAt",
+    "name" : "rpr_mt_week",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01DBA50Z000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "showing version control",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/rpr"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
